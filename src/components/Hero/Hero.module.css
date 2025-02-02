@@ -1,0 +1,47 @@
+.hero {
+  height: 100vh;
+  background: url("../../../public/Hero.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #633a37;
+  padding: 2rem;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #4b2c2a;
+}
+
+.subtitle {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.logoContainer {
+  width: 300px;
+  margin: 2rem 0;
+}
+
+.logo {
+  width: 200%;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+  .subtitle {
+    font-size: 1.5rem;
+  }
+  .logoContainer {
+    width: 150px;
+    height: 150px;
+  }
+}

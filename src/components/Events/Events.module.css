@@ -1,0 +1,47 @@
+.events {
+  padding: 4rem 2rem;
+  background-color: #d4b595;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #4a2c2a;
+}
+
+.eventGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.eventCard {
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.eventCard:hover {
+  transform: translateY(-5px);
+}
+
+.eventCard img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.eventCard h3 {
+  padding: 1rem;
+  color: #4a2c2a;
+}
+
+.eventCard p {
+  padding: 0 1rem 1rem;
+  color: #666;
+}

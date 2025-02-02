@@ -1,0 +1,110 @@
+.footer {
+  background-color: #1a1a1a;
+  padding: 2rem 0;
+  color: #ffffff;
+}
+
+.footerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.logoSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buildingsLogo {
+  height: 60px;
+  filter: brightness(0.9);
+}
+
+.newsletterSection {
+  text-align: center;
+}
+
+.newsletterSection h3 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #d4b595;
+}
+
+.subscribeForm {
+  display: flex;
+  justify-content: center;
+}
+.subscribeForm button {
+  padding: 0.8rem 1.5rem;
+  background: #4a2c2a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.emailInput {
+  padding: 0.8rem;
+  width: 100%;
+  max-width: 300px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+.emailInput::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.socialSection {
+  text-align: center;
+}
+
+.socialSection h3 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #d4b595;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.socialIcons a {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialIcons img {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0.9);
+  transition: filter 0.3s ease;
+}
+
+.socialIcons img:hover {
+  filter: brightness(1.2);
+}
+
+@media (max-width: 768px) {
+  .footerContent {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .socialIcons {
+    justify-content: center;
+  }
+}

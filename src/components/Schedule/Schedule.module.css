@@ -1,0 +1,115 @@
+.eventSchedule {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.title {
+  text-align: center;
+  color: #4a2c2a;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tab {
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 25px;
+  background: #d4b595;
+  color: #4a2c2a;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.tab:hover {
+  background: #4a2c2a;
+  color: #d4b595;
+}
+
+.tab.active {
+  background: #4a2c2a;
+  color: #d4b595;
+}
+
+.scheduleDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.eventCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.eventCard:hover {
+  transform: translateY(-2px);
+}
+
+.eventInfo {
+  flex: 1;
+}
+
+.eventTitle {
+  color: #4a2c2a;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.eventLocation {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.eventTime {
+  text-align: right;
+}
+
+.time {
+  color: #4a2c2a;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.duration {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .eventSchedule {
+    padding: 1rem;
+  }
+
+  .tabs {
+    flex-wrap: wrap;
+  }
+
+  .tab {
+    padding: 0.6rem 1.5rem;
+  }
+
+  .eventCard {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .eventTime {
+    text-align: center;
+  }
+}
