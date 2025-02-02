@@ -28,7 +28,7 @@ const Footer = () => {
           <h3>Connect with us</h3>
           <div className={styles.socialIcons}>
             <a href="#instagram">
-              <img src="../../assets/insta.png" alt="Instagram" />
+              <img src="../../../public/insta.png" alt="Instagram" />
             </a>
             <a href="#linkedin">
               <img src="../../../public/linkedin.png" alt="LinkedIn" />

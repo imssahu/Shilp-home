@@ -6,10 +6,7 @@ const AboutShilp = () => {
     <section className={styles.about}>
       <div className={styles.container}>
         <div className={styles.imageSection}>
-          <img
-            src="../../assets/Shilp-logo.png"
-            alt="Ancient Greek Architecture"
-          />
+          <img src="assets/Shilp-logo.png" alt="Ancient Greek Architecture" />
         </div>
 
         <div className={styles.contentSection}>
