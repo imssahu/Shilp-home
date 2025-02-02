@@ -1,10 +1,10 @@
 import styles from "./Navbar.module.css";
-
+import shilplogo from "../../../public/Shilp-logo.png";
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
-        <img src="../../../public/Shilp-orig.png" alt="CES Logo" />
+        <img src={shilplogo} alt="CES Logo" />
       </div>
       <div className={styles.navLinks}>
         <a href="#home">Home</a>

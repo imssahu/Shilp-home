@@ -1,12 +1,14 @@
 import styles from "./Footer.module.css";
-
+import building from "../../../public/Building.png";
+import insta from "../../../public/insta.png";
+import linkedin from "../../../public/linkedin.png";
 const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerContent}>
         <div className={styles.logoSection}>
           <img
-            src="../../../public/building.png"
+            src={building}
             alt="Shilp Buildings"
             className={styles.buildingsLogo}
           />
@@ -28,10 +30,10 @@ const Footer = () => {
           <h3>Connect with us</h3>
           <div className={styles.socialIcons}>
             <a href="#instagram">
-              <img src="../../../public/insta.png" alt="Instagram" />
+              <img src={insta} alt="Instagram" />
             </a>
             <a href="#linkedin">
-              <img src="../../../public/linkedin.png" alt="LinkedIn" />
+              <img src={linkedin} alt="LinkedIn" />
             </a>
           </div>
         </div>
