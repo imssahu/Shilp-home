@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./About-Shilp.module.css";
-
+import shilplogo from "../../../public/Shilp-logo.png";
 const AboutShilp = () => {
   return (
     <section className={styles.about}>
       <div className={styles.container}>
         <div className={styles.imageSection}>
-          <img src="assets/Shilp-logo.png" alt="Ancient Greek Architecture" />
+          <img src={shilplogo} alt="Ancient Greek Architecture" />
         </div>
 
         <div className={styles.contentSection}>
