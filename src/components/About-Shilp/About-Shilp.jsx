@@ -7,7 +7,7 @@ const AboutShilp = () => {
       <div className={styles.container}>
         <div className={styles.imageSection}>
           <img
-            src="../../../public/Shilp-logo.png"
+            src="../../assets/Shilp-logo.png"
             alt="Ancient Greek Architecture"
           />
         </div>
