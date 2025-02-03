@@ -1,5 +1,7 @@
 import styles from "./Events.module.css";
-import technicalWorkshop from "../../assets/Hero.png";
+import technicalWorkshop from "../../assets/Placeholder.png";
+import guestLecture from "../../assets/Placeholder.png";
+import competition from "../../assets/Placeholder.png";
 
 const Events = () => {
 	const events = [
@@ -10,12 +12,12 @@ const Events = () => {
 		},
 		{
 			title: "Guest Lecture",
-			image: "/images/guest-lecture.jpg",
+			image: guestLecture,
 			description: "Industry experts sharing insights",
 		},
 		{
 			title: "Competition",
-			image: "/images/competition.jpg",
+			image: competition,
 			description: "Test your skills",
 		},
 	];
