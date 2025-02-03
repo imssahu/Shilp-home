@@ -1,5 +1,5 @@
 import styles from "./About.module.css";
-import cesLogo from "../../../public/CES_logo/ces-logo.png";
+import cesLogo from "../../assets/CES_logo/ces-logo.png";
 
 const About = () => {
   return (
