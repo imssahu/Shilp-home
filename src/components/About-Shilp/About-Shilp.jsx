@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./About-Shilp.module.css";
-import shilplogo from "../../../public/Shilp-logo.png";
+import shilplogo from "../../assets/Shilp-logo.png";
 const AboutShilp = () => {
   return (
-    <section className={styles.about}>
+		<section className={styles.about} id="about">
       <div className={styles.container}>
         <div className={styles.imageSection}>
           <img src={shilplogo} alt="Ancient Greek Architecture" />
