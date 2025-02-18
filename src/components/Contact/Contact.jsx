@@ -1,9 +1,9 @@
 import styles from "./Contact.module.css";
 
-import LandT from "../../assets/placeholder.png";
-import tataConc from "../../assets/placeholder.png";
-import jsw from "../../assets/placeholder.png";
-import godrej from "../../assets/placeholder.png";
+import LandT from "../../assets/Placeholder.png";
+import tataConc from "../../assets/Placeholder.png";
+import jsw from "../../assets/Placeholder.png";
+import godrej from "../../assets/Placeholder.png";
 import js from "@eslint/js";
 
 const Contact = () => {

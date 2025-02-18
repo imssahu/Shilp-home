@@ -19,7 +19,7 @@ const Footer = () => {
 					<div className={styles.subscribeForm}>
 						<input
 							type="email"
-							placeholder="Enter your email"
+							Placeholder="Enter your email"
 							className={styles.emailInput}
 						/>
 						<button type="submit">Subscribe</button>
